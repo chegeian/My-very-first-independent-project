@@ -1,8 +1,31 @@
+@media (min-width:600px){
+  :root{
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.25rem;
+  }
+}
 body {
   background:#C4A77D;
-  color:#175D1C:;
+  color:#175D1C;
+  accent-color:red;
   margin:0;
   font-family:sans-serif ;
   font-size: medium;
 
 }
+
+img {
+  display:block;
+  max-width: 100;
+
+}
+
+h1
+h2
+h3{
+  line-height: 1.1;
+  margin: 0;
+}
+h1
