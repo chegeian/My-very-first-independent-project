@@ -65,3 +65,7 @@ position: relative;
 .section__title--about{
   text-align: center;
 }
+
+.img {
+  float:left;
+}
