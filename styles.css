@@ -47,6 +47,7 @@ h3{
 .section--subtitle--about{
   background:#230903;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
@@ -60,3 +61,7 @@ h3{
 position: relative;
 }
 
+.section__title ,
+.section__title--about{
+  text-align: center;
+}
