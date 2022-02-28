@@ -3,15 +3,16 @@
   <head>
 
   <meta charset="UFT-8">
-  <meta name="viewport" content="widht=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Chege portfolio</title>
  <link href="styles.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
+  <div class="container">
      <header>
          <div class="logo">
-           <img src="img/me.jpg" alt="">
+           <img src="" alt="">
          </div>
          <button class=nav-toogle" arial-lable="toggle navigation">
         <span class="hamburger"></span>
@@ -21,7 +22,7 @@
           <li class="nav__item"><a href="#home" class="nav__link">HOME</a></li>
           <li class="nav__item"><a href="#my projects" class="nav__link">ABOUT ME</a></li>
           <li class="nav__item"><a href="#about me" class="nav__link">SKILLS</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">MY CONTACTS</a></li>
+          <li class="nav__item"><a href="#my contacts" class="nav__link">MY CONTACTS</a></li>
 
         </ul>
       </nav>
@@ -32,15 +33,14 @@
         <h1 class="section__title section__title--intro">
         Hello everyone,I am <strong> Ian Chege</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end Chege</p>
-        <img src="chege1.jpg" alt="A picture of chege ian">
+        <p class="section__subtitle section__subtitle--intro"></p>   
      </section>
      
      <!---my projects--->
      <section class="my-projects" id="my-projects">
+       <div class="test-box">
        <h2 class="section__title section__title--projects">The projects i have done</h2>
        <div class="projects">
-         <div class="projects">
           <h3>New-web</h3>
           <p> I worked on a project which i named <strong>new-web</strong>.This was my very first project and it was basically learing how to create basic webapage .You can check it out here <a href="https://github.com/chegeian/new-web.git">basic webpage</a>
             Not that fancy right? well each day im learning and getting better.
@@ -51,8 +51,10 @@
           <h3>Cookie-Recipe</h3>
           <p>The <strong>cookie recipe</strong>strong is also a project which i worked on sometimes back.The aim of the project was to practice proper identation and spacing and you can see i achievied that here <a href="https://github.com/chegeian/cookie-recipe.git">The cookie-recipe</a>
           This project mainly used html and just a little bit of css</p>
-        </div> <!--/projects-->
-    <a href="work" class="btn">My-work</a>   
+        </div> 
+      </div>
+      <!--/projects-->
+    <a href="https://github.com/chegeian/new-web.git" class="btn">My-work</a>   
      </section>
       
      <!----about me -->
@@ -73,13 +75,22 @@
            <p>In terms of education , i would say my journey has been a roller coaster
              I decided to do programming beacause i love interacting with computers and learning new things
              also the dream of one day becoming a fullstack web developer lead me to this course
-           </p>
+             <img src="chege1.jpg" alt="A picture of chege ian"></p>
           </div>
 
      </section>
 
+     <!---my contacts--->
+     <section class="my contacts" id="my contacts"
+     h2 class="section__title section__title--about"><strong>My contacts</strong> </h2>
+     <div class="my-contacts">
+       <p>You can reach me through my email <span style="color: aqua;">chegeian65@gmail.com</span></p>
+     </div>
+     </section>
+
+
 
       
-
+  </div>
   </body>
 </html>
