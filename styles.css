@@ -79,3 +79,8 @@ img{
   float: right;
   background-color: black;
 }
+
+.nav{
+  text-align: center;
+  padding: 0em;
+}
